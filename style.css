@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: Arial;
     background-color: Canvas;
     color: CanvasText;
     color-scheme: light dark;
@@ -9,7 +9,8 @@ body {
     flex-direction: column;
 }
 
-h1 {
+h1, h2, h3 {
+    font-family: monospace;
     text-align: center;
 }
 
@@ -54,6 +55,7 @@ header > * {
     display: inline-block;
     padding: 1em;
     text-align: center;
+    line-height: 1.5;
     border: white 1px solid;
     margin: 0 auto;
 }
