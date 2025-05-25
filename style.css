@@ -26,6 +26,7 @@ button:hover {
 .horizontal {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .scrolling {
@@ -33,7 +34,8 @@ button:hover {
 }
 
 .horizontal > * {
-    margin: 0 10px;
+    margin: 0.5em;
+    flex: 0 0 auto;
 }
 
 /* Header */
