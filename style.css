@@ -25,17 +25,24 @@ button:hover {
 
 .horizontal {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 
 .scrolling {
     overflow: auto;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 .horizontal > * {
     margin: 0.5em;
     flex: 0 0 auto;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
 }
 
 /* Header */
